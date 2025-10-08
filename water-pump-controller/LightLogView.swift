@@ -40,8 +40,9 @@ struct LightLogView: View {
                         .scaleEffect(x: 1, y: 2, anchor: .center)
                     
                     Text(mqttClient.currentLightDescription.isEmpty ? lightLevelDescription : mqttClient.currentLightDescription)
-                        .font(.caption)
-                        .foregroundColor(.secondary)
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+                        .foregroundColor(.primary)
                 }
                 .padding()
                 .background(Color(.systemGray6))
