@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var mqttClient = MQTTClient()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            PumpLogView(mqttClient: mqttClient)
+                .tabItem {
+                    Image(systemName: "drop.fill")
+                    Text("ポンプログ")
+                }
+            
+            SettingsView(mqttClient: mqttClient)
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("設定")
+                }
+            
+            LightLogView(mqttClient: mqttClient)
+                .tabItem {
+                    Image(systemName: "sun.max")
+                    Text("照度ログ")
+                }
         }
-        .padding()
+        .onAppear {
+            mqttClient.connect()
+        }
     }
 }
 

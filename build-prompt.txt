@@ -1,0 +1,16 @@
+以下のコマンドで実行している処理をiPhoneで行うためのアプリを作成する。
+
+
+- 実行ログ監視用のコマンド:
+mosquitto_sub -h '192.168.1.34' -u etokoji -P "$MQTT_PASSWORD" -t 'esp_log/#' -v
+
+- 放水時間設定変更用のコマンド:
+mosquitto_pub -t "esp_cfg/1" -m '{ "PWM_length":2500}' -u etokoji -P $MQTT_PASSWORD -h 192.168.1.34 -r
+
+- 照度監視用コマンド:
+/Users/etokoji/env_light_logger.rb
+
+画面構成:
+- ポンプログ画面
+- 放水時間変更ダイアログ
+- 照度ログ画面
