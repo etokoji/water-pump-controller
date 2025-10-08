@@ -16,9 +16,9 @@ struct LightLogView: View {
                 // 接続状態表示
                 HStack {
                     Circle()
-                        .fill(mqttClient.isConnected ? Color.green : Color.red)
+                        .fill(connectionStatusColor)
                         .frame(width: 12, height: 12)
-                    Text(mqttClient.isConnected ? "接続中" : "未接続")
+                    Text(mqttClient.connectionStatus)
                         .font(.caption)
                     Spacer()
                 }
@@ -122,6 +122,18 @@ struct LightLogView: View {
             return "Very Bright Sunlight"
         default:
             return "Extremely Bright Sunlight"
+        }
+    }
+    
+    private var connectionStatusColor: Color {
+        if mqttClient.isConnected {
+            return .green
+        } else if mqttClient.connectionStatus.contains("接続中") {
+            return .orange
+        } else if mqttClient.connectionStatus.contains("失敗") || mqttClient.connectionStatus.contains("キャンセル") {
+            return .red
+        } else {
+            return .gray
         }
     }
 }

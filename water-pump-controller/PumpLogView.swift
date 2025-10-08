@@ -27,9 +27,9 @@ struct PumpLogView: View {
     private var connectionStatusView: some View {
         HStack {
             Circle()
-                .fill(mqttClient.isConnected ? Color.green : Color.red)
+                .fill(connectionStatusColor)
                 .frame(width: 12, height: 12)
-            Text(mqttClient.isConnected ? "接続中" : "未接続")
+            Text(mqttClient.connectionStatus)
                 .font(.caption)
             Spacer()
             
@@ -58,6 +58,18 @@ struct PumpLogView: View {
                             }
                         }
                     }
+        }
+    }
+    
+    private var connectionStatusColor: Color {
+        if mqttClient.isConnected {
+            return .green
+        } else if mqttClient.connectionStatus.contains("接続中") {
+            return .orange
+        } else if mqttClient.connectionStatus.contains("失敗") || mqttClient.connectionStatus.contains("キャンセル") {
+            return .red
+        } else {
+            return .gray
         }
     }
 }

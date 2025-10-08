@@ -21,6 +21,17 @@ struct PWMSettingDialog: View {
                     .font(.title2)
                     .fontWeight(.semibold)
                 
+                // 接続状態表示
+                HStack {
+                    Circle()
+                        .fill(connectionStatusColor)
+                        .frame(width: 10, height: 10)
+                    Text(mqttClient.connectionStatus)
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                    Spacer()
+                }
+                
                 VStack(alignment: .leading, spacing: 8) {
                     Text("PWM長 (ミリ秒)")
                         .font(.headline)
@@ -99,6 +110,18 @@ struct PWMSettingDialog: View {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             isPresented = false
+        }
+    }
+    
+    private var connectionStatusColor: Color {
+        if mqttClient.isConnected {
+            return .green
+        } else if mqttClient.connectionStatus.contains("接続中") {
+            return .orange
+        } else if mqttClient.connectionStatus.contains("失敗") || mqttClient.connectionStatus.contains("キャンセル") {
+            return .red
+        } else {
+            return .gray
         }
     }
 }
