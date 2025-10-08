@@ -1,13 +1,13 @@
 //
-//  water_pump_controlerUITests.swift
-//  water-pump-controlerUITests
+//  water_pump_controllerUITests.swift
+//  water-pump-controllerUITests
 //
 //  Created by 江藤公二 on 2025/10/08.
 //
 
 import XCTest
 
-final class water_pump_controlerUITests: XCTestCase {
+final class water_pump_controllerUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

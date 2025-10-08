@@ -1,13 +1,13 @@
 //
-//  water_pump_controlerUITestsLaunchTests.swift
-//  water-pump-controlerUITests
+//  water_pump_controllerUITestsLaunchTests.swift
+//  water-pump-controllerUITests
 //
 //  Created by 江藤公二 on 2025/10/08.
 //
 
 import XCTest
 
-final class water_pump_controlerUITestsLaunchTests: XCTestCase {
+final class water_pump_controllerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

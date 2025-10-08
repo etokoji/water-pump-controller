@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  water-pump-controler
+//  water-pump-controller
 //
 //  Created by 江藤公二 on 2025/10/08.
 //

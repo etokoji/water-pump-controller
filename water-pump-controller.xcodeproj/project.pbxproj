@@ -12,37 +12,37 @@
 			containerPortal = AB67D9472E96067100CE6874 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AB67D94E2E96067100CE6874;
-			remoteInfo = "water-pump-controler";
+			remoteInfo = "water-pump-controller";
 		};
 		AB67D9672E96067300CE6874 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB67D9472E96067100CE6874 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AB67D94E2E96067100CE6874;
-			remoteInfo = "water-pump-controler";
+			remoteInfo = "water-pump-controller";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB67D94F2E96067100CE6874 /* water-pump-controler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "water-pump-controler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB67D95C2E96067300CE6874 /* water-pump-controlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "water-pump-controlerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB67D9662E96067300CE6874 /* water-pump-controlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "water-pump-controlerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB67D94F2E96067100CE6874 /* water-pump-controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "water-pump-controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB67D95C2E96067300CE6874 /* water-pump-controllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "water-pump-controllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB67D9662E96067300CE6874 /* water-pump-controllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "water-pump-controllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AB67D9512E96067100CE6874 /* water-pump-controler */ = {
+		AB67D9512E96067100CE6874 /* water-pump-controller */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "water-pump-controler";
+			path = "water-pump-controller";
 			sourceTree = "<group>";
 		};
-		AB67D95F2E96067300CE6874 /* water-pump-controlerTests */ = {
+		AB67D95F2E96067300CE6874 /* water-pump-controllerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "water-pump-controlerTests";
+			path = "water-pump-controllerTests";
 			sourceTree = "<group>";
 		};
-		AB67D9692E96067300CE6874 /* water-pump-controlerUITests */ = {
+		AB67D9692E96067300CE6874 /* water-pump-controllerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "water-pump-controlerUITests";
+			path = "water-pump-controllerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		AB67D9462E96067100CE6874 = {
 			isa = PBXGroup;
 			children = (
-				AB67D9512E96067100CE6874 /* water-pump-controler */,
-				AB67D95F2E96067300CE6874 /* water-pump-controlerTests */,
-				AB67D9692E96067300CE6874 /* water-pump-controlerUITests */,
+				AB67D9512E96067100CE6874 /* water-pump-controller */,
+				AB67D95F2E96067300CE6874 /* water-pump-controllerTests */,
+				AB67D9692E96067300CE6874 /* water-pump-controllerUITests */,
 				AB67D9502E96067100CE6874 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		AB67D9502E96067100CE6874 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB67D94F2E96067100CE6874 /* water-pump-controler.app */,
-				AB67D95C2E96067300CE6874 /* water-pump-controlerTests.xctest */,
-				AB67D9662E96067300CE6874 /* water-pump-controlerUITests.xctest */,
+				AB67D94F2E96067100CE6874 /* water-pump-controller.app */,
+				AB67D95C2E96067300CE6874 /* water-pump-controllerTests.xctest */,
+				AB67D9662E96067300CE6874 /* water-pump-controllerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB67D94E2E96067100CE6874 /* water-pump-controler */ = {
+		AB67D94E2E96067100CE6874 /* water-pump-controller */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB67D9702E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controler" */;
+			buildConfigurationList = AB67D9702E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controller" */;
 			buildPhases = (
 				AB67D94B2E96067100CE6874 /* Sources */,
 				AB67D94C2E96067100CE6874 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				AB67D9512E96067100CE6874 /* water-pump-controler */,
+				AB67D9512E96067100CE6874 /* water-pump-controller */,
 			);
-			name = "water-pump-controler";
+			name = "water-pump-controller";
 			packageProductDependencies = (
 			);
-			productName = "water-pump-controler";
-			productReference = AB67D94F2E96067100CE6874 /* water-pump-controler.app */;
+			productName = "water-pump-controller";
+			productReference = AB67D94F2E96067100CE6874 /* water-pump-controller.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB67D95B2E96067300CE6874 /* water-pump-controlerTests */ = {
+		AB67D95B2E96067300CE6874 /* water-pump-controllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB67D9732E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controlerTests" */;
+			buildConfigurationList = AB67D9732E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controllerTests" */;
 			buildPhases = (
 				AB67D9582E96067300CE6874 /* Sources */,
 				AB67D9592E96067300CE6874 /* Frameworks */,
@@ -131,18 +131,18 @@
 				AB67D95E2E96067300CE6874 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				AB67D95F2E96067300CE6874 /* water-pump-controlerTests */,
+				AB67D95F2E96067300CE6874 /* water-pump-controllerTests */,
 			);
-			name = "water-pump-controlerTests";
+			name = "water-pump-controllerTests";
 			packageProductDependencies = (
 			);
-			productName = "water-pump-controlerTests";
-			productReference = AB67D95C2E96067300CE6874 /* water-pump-controlerTests.xctest */;
+			productName = "water-pump-controllerTests";
+			productReference = AB67D95C2E96067300CE6874 /* water-pump-controllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AB67D9652E96067300CE6874 /* water-pump-controlerUITests */ = {
+		AB67D9652E96067300CE6874 /* water-pump-controllerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB67D9762E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controlerUITests" */;
+			buildConfigurationList = AB67D9762E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controllerUITests" */;
 			buildPhases = (
 				AB67D9622E96067300CE6874 /* Sources */,
 				AB67D9632E96067300CE6874 /* Frameworks */,
@@ -154,13 +154,13 @@
 				AB67D9682E96067300CE6874 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				AB67D9692E96067300CE6874 /* water-pump-controlerUITests */,
+				AB67D9692E96067300CE6874 /* water-pump-controllerUITests */,
 			);
-			name = "water-pump-controlerUITests";
+			name = "water-pump-controllerUITests";
 			packageProductDependencies = (
 			);
-			productName = "water-pump-controlerUITests";
-			productReference = AB67D9662E96067300CE6874 /* water-pump-controlerUITests.xctest */;
+			productName = "water-pump-controllerUITests";
+			productReference = AB67D9662E96067300CE6874 /* water-pump-controllerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB67D94A2E96067100CE6874 /* Build configuration list for PBXProject "water-pump-controler" */;
+			buildConfigurationList = AB67D94A2E96067100CE6874 /* Build configuration list for PBXProject "water-pump-controller" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB67D94E2E96067100CE6874 /* water-pump-controler */,
-				AB67D95B2E96067300CE6874 /* water-pump-controlerTests */,
-				AB67D9652E96067300CE6874 /* water-pump-controlerUITests */,
+				AB67D94E2E96067100CE6874 /* water-pump-controller */,
+				AB67D95B2E96067300CE6874 /* water-pump-controllerTests */,
+				AB67D9652E96067300CE6874 /* water-pump-controllerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		AB67D95E2E96067300CE6874 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB67D94E2E96067100CE6874 /* water-pump-controler */;
+			target = AB67D94E2E96067100CE6874 /* water-pump-controller */;
 			targetProxy = AB67D95D2E96067300CE6874 /* PBXContainerItemProxy */;
 		};
 		AB67D9682E96067300CE6874 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB67D94E2E96067100CE6874 /* water-pump-controler */;
+			target = AB67D94E2E96067100CE6874 /* water-pump-controller */;
 			targetProxy = AB67D9672E96067300CE6874 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -410,7 +410,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controler";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controler";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -456,12 +456,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controlerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controllerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/water-pump-controler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/water-pump-controler";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/water-pump-controller.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/water-pump-controller";
 			};
 			name = Debug;
 		};
@@ -475,12 +475,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controlerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controllerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/water-pump-controler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/water-pump-controler";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/water-pump-controller.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/water-pump-controller";
 			};
 			name = Release;
 		};
@@ -492,12 +492,12 @@
 				DEVELOPMENT_TEAM = PGMR9WGF47;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controlerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controllerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "water-pump-controler";
+				TEST_TARGET_NAME = "water-pump-controller";
 			};
 			name = Debug;
 		};
@@ -509,19 +509,19 @@
 				DEVELOPMENT_TEAM = PGMR9WGF47;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controlerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etokoji.water-pump-controllerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "water-pump-controler";
+				TEST_TARGET_NAME = "water-pump-controller";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB67D94A2E96067100CE6874 /* Build configuration list for PBXProject "water-pump-controler" */ = {
+		AB67D94A2E96067100CE6874 /* Build configuration list for PBXProject "water-pump-controller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB67D96E2E96067300CE6874 /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB67D9702E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controler" */ = {
+		AB67D9702E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB67D9712E96067300CE6874 /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB67D9732E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controlerTests" */ = {
+		AB67D9732E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controllerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB67D9742E96067300CE6874 /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB67D9762E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controlerUITests" */ = {
+		AB67D9762E96067300CE6874 /* Build configuration list for PBXNativeTarget "water-pump-controllerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB67D9772E96067300CE6874 /* Debug */,
