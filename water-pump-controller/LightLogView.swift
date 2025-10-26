@@ -151,7 +151,7 @@ struct StatCard: View {
                 .font(.caption)
                 .foregroundColor(.secondary)
             Text(value)
-                .font(.title2)
+                .font(.title3)
                 .fontWeight(.semibold)
                 .foregroundColor(color)
             Text(unit)

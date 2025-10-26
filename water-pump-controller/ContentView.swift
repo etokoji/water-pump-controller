@@ -29,6 +29,12 @@ struct ContentView: View {
                     Image(systemName: "sun.max")
                     Text("照度ログ")
                 }
+            
+            BrightnessHistoryView()
+                .tabItem {
+                    Image(systemName: "chart.line.uptrend.xyaxis")
+                    Text("照度履歴")
+                }
         }
         .onAppear {
             mqttClient.connect()
