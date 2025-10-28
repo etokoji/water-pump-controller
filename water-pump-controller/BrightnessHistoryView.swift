@@ -309,7 +309,7 @@ struct BrightnessHistoryView: View {
                         Spacer()
                         
                         Text(String(format: "%.1f", data.brightness))
-                            .font(.system(size: 16, weight: .semibold, design: .rounded))
+                            .font(.system(size: 16, weight: .semibold, design: .monospaced))
                             .foregroundColor(brightnessColor(data.brightness))
                         
                         Text("lux")

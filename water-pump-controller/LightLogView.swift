@@ -30,7 +30,7 @@ struct LightLogView: View {
                         .font(.headline)
                     
                     Text("\(String(format: "%.2f", mqttClient.currentLightLevel)) lux")
-                        .font(.largeTitle)
+                        .font(.system(.largeTitle, design: .monospaced))
                         .fontWeight(.bold)
                         .foregroundColor(.primary)
                     
@@ -151,7 +151,7 @@ struct StatCard: View {
                 .font(.caption)
                 .foregroundColor(.secondary)
             Text(value)
-                .font(.title3)
+                .font(.system(.title3, design: .monospaced))
                 .fontWeight(.semibold)
                 .foregroundColor(color)
             Text(unit)
